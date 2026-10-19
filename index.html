@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ticketly – Ticket Booking System</title>
+<link rel="stylesheet" href="style.css">
+</head><body>
+<aside id="sb"><button class="burger" onclick="sb.classList.toggle('open')">☰</button><nav id="nav"></nav></aside>
+<main>
+<header><button class="burger" style="margin:0;display:none" id="hb" onclick="sb.classList.toggle('open')">☰</button>
+<span class="logo">Ticketly</span><input id="gs" placeholder="Search events…"><span class="sp"></span>
+<span title="Toggle theme" style="cursor:pointer;font-size:22px" onclick="theme()">🌓</span>
+<div class="av">A</div><div class="u"><b>admin</b><i>admin</i></div><button class="b" onclick="toast('Logged out (demo)')">Logout</button></header>
+<div class="wrap" id="view"></div>
+</main><div id="toast"></div>
+
+<script src="app.js"></script>
+</body></html>

@@ -1,0 +1,318 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "name": "Coldplay Live",
+      "category": "Concert",
+      "venue": "National Stadium",
+      "date": "2026-11-05",
+      "price": 120,
+      "cap": 500,
+      "sold": 440
+    },
+    {
+      "id": 2,
+      "name": "Lahore Derby Cup",
+      "category": "Sports",
+      "venue": "Gaddafi Arena",
+      "date": "2026-11-12",
+      "price": 35,
+      "cap": 800,
+      "sold": 410
+    },
+    {
+      "id": 3,
+      "name": "Hamlet Reimagined",
+      "category": "Theatre",
+      "venue": "Alhamra Hall",
+      "date": "2026-10-28",
+      "price": 45,
+      "cap": 200,
+      "sold": 200
+    },
+    {
+      "id": 4,
+      "name": "Sci-Fi Film Night",
+      "category": "Movie",
+      "venue": "Cinepax Gold",
+      "date": "2026-10-24",
+      "price": 15,
+      "cap": 150,
+      "sold": 90
+    },
+    {
+      "id": 5,
+      "name": "TechSummit 2026",
+      "category": "Conference",
+      "venue": "Expo Center",
+      "date": "2026-12-02",
+      "price": 210,
+      "cap": 600,
+      "sold": 380
+    },
+    {
+      "id": 6,
+      "name": "Sufi Night",
+      "category": "Concert",
+      "venue": "Lahore Fort",
+      "date": "2026-11-20",
+      "price": 60,
+      "cap": 300,
+      "sold": 285
+    },
+    {
+      "id": 7,
+      "name": "T20 Finals",
+      "category": "Sports",
+      "venue": "National Stadium",
+      "date": "2026-12-10",
+      "price": 55,
+      "cap": 900,
+      "sold": 520
+    },
+    {
+      "id": 8,
+      "name": "Comedy Carnival",
+      "category": "Theatre",
+      "venue": "Alhamra Hall",
+      "date": "2026-11-02",
+      "price": 25,
+      "cap": 220,
+      "sold": 150
+    },
+    {
+      "id": 9,
+      "name": "Documentary Premiere",
+      "category": "Movie",
+      "venue": "Cinepax Gold",
+      "date": "2026-10-30",
+      "price": 12,
+      "cap": 120,
+      "sold": 40
+    },
+    {
+      "id": 10,
+      "name": "AI Founders Meetup",
+      "category": "Conference",
+      "venue": "Expo Center",
+      "date": "2026-11-15",
+      "price": 80,
+      "cap": 250,
+      "sold": 236
+    },
+    {
+      "id": 11,
+      "name": "Jazz Under Stars",
+      "category": "Concert",
+      "venue": "Jilani Park",
+      "date": "2026-12-18",
+      "price": 40,
+      "cap": 350,
+      "sold": 120
+    },
+    {
+      "id": 12,
+      "name": "Kabaddi Cup",
+      "category": "Sports",
+      "venue": "Punjab Stadium",
+      "date": "2026-11-25",
+      "price": 18,
+      "cap": 500,
+      "sold": 260
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Hamza Malik",
+      "email": "hamza@mail.com",
+      "city": "Lahore",
+      "tier": "Gold"
+    },
+    {
+      "id": 2,
+      "name": "Maryam Ahmed",
+      "email": "maryam@mail.com",
+      "city": "Karachi",
+      "tier": "Silver"
+    },
+    {
+      "id": 3,
+      "name": "Shahzaib Raza",
+      "email": "shahzaib@mail.com",
+      "city": "Bahawalpur",
+      "tier": "Bronze"
+    },
+    {
+      "id": 4,
+      "name": "Ayesha Khan",
+      "email": "ayesha@mail.com",
+      "city": "Islamabad",
+      "tier": "Gold"
+    },
+    {
+      "id": 5,
+      "name": "Bilal Hussain",
+      "email": "bilal@mail.com",
+      "city": "Multan",
+      "tier": "Silver"
+    },
+    {
+      "id": 6,
+      "name": "Sana Iqbal",
+      "email": "sana@mail.com",
+      "city": "Lahore",
+      "tier": "Bronze"
+    },
+    {
+      "id": 7,
+      "name": "Usman Tariq",
+      "email": "usman@mail.com",
+      "city": "Faisalabad",
+      "tier": "Gold"
+    },
+    {
+      "id": 8,
+      "name": "Fatima Noor",
+      "email": "fatima@mail.com",
+      "city": "Karachi",
+      "tier": "Bronze"
+    },
+    {
+      "id": 9,
+      "name": "Ali Raza",
+      "email": "ali@mail.com",
+      "city": "Bahawalpur",
+      "tier": "Silver"
+    },
+    {
+      "id": 10,
+      "name": "Zainab Shah",
+      "email": "zainab@mail.com",
+      "city": "Islamabad",
+      "tier": "Gold"
+    }
+  ],
+  "bookings": [
+    {
+      "id": 1001,
+      "e": 1,
+      "c": 1,
+      "qty": 2,
+      "status": "Confirmed",
+      "date": "2026-10-13"
+    },
+    {
+      "id": 1002,
+      "e": 3,
+      "c": 2,
+      "qty": 4,
+      "status": "Confirmed",
+      "date": "2026-10-13"
+    },
+    {
+      "id": 1003,
+      "e": 5,
+      "c": 4,
+      "qty": 1,
+      "status": "Pending",
+      "date": "2026-10-14"
+    },
+    {
+      "id": 1004,
+      "e": 2,
+      "c": 3,
+      "qty": 3,
+      "status": "Confirmed",
+      "date": "2026-10-14"
+    },
+    {
+      "id": 1005,
+      "e": 6,
+      "c": 5,
+      "qty": 2,
+      "status": "Cancelled",
+      "date": "2026-10-15"
+    },
+    {
+      "id": 1006,
+      "e": 4,
+      "c": 6,
+      "qty": 5,
+      "status": "Confirmed",
+      "date": "2026-10-15"
+    },
+    {
+      "id": 1007,
+      "e": 7,
+      "c": 7,
+      "qty": 2,
+      "status": "Confirmed",
+      "date": "2026-10-16"
+    },
+    {
+      "id": 1008,
+      "e": 10,
+      "c": 8,
+      "qty": 1,
+      "status": "Pending",
+      "date": "2026-10-16"
+    },
+    {
+      "id": 1009,
+      "e": 8,
+      "c": 9,
+      "qty": 4,
+      "status": "Confirmed",
+      "date": "2026-10-17"
+    },
+    {
+      "id": 1010,
+      "e": 1,
+      "c": 10,
+      "qty": 3,
+      "status": "Confirmed",
+      "date": "2026-10-17"
+    },
+    {
+      "id": 1011,
+      "e": 9,
+      "c": 1,
+      "qty": 2,
+      "status": "Cancelled",
+      "date": "2026-10-18"
+    },
+    {
+      "id": 1012,
+      "e": 11,
+      "c": 4,
+      "qty": 6,
+      "status": "Confirmed",
+      "date": "2026-10-18"
+    },
+    {
+      "id": 1013,
+      "e": 12,
+      "c": 2,
+      "qty": 2,
+      "status": "Pending",
+      "date": "2026-10-19"
+    },
+    {
+      "id": 1014,
+      "e": 5,
+      "c": 7,
+      "qty": 2,
+      "status": "Confirmed",
+      "date": "2026-10-19"
+    },
+    {
+      "id": 1015,
+      "e": 6,
+      "c": 3,
+      "qty": 1,
+      "status": "Pending",
+      "date": "2026-10-19"
+    }
+  ]
+}
